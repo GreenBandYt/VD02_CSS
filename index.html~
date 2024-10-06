@@ -11,13 +11,42 @@
 <div class="card">
     <table>
         <tr>
-            <td><img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user" width="150"></td>
-            <td><p>Имя: <span id = "name"></span></p>
-                <p>Возраст: <span id = "age"></span></p>
-                <p>Город: <span id = "city"></span></p>
+            <td><img src="Yuriy11.jpg" alt="user" width="200"></td>
+            <td><p>ФИО: Бандура Юрий<span id = "name"></span></p>
+                <p>E-mail: <a href="mailto:bandurayv@yandex.ru" onclick="return confirmEmail()"> bandurayv@yandex.ru </a> <span id = "email"></span></p>
+                <p>Дата рождения: 05.09.1972 <span id = "age"></span></p>
+                <p>Город: Смоленск <span id = "city"></span></p>
+            </td>
+        </tr>
+
+    </table>
+</div>
+<div class="card">
+    <table>
+        <tr>
+            <td><img src="elon_musk.jpg" alt="user" width="200"></td>
+            <td>
+                <p>ФИО: Илон Маск <span id="name"></span></p>
+                <p>E-mail: <a href="mailto:elonmusk@spacex.com" onclick="return confirmEmail()"> elonmusk@spacex.com </a> <span id="email"></span></p>
+                <p>Дата рождения: 28.06.1971 <span id="age"></span></p>
+                <p>Город: Лос-Анджелес <span id="city"></span></p>
             </td>
         </tr>
     </table>
 </div>
+<div class="card">
+    <table>
+        <tr>
+            <td><img src="bill_gates.jpg" alt="user" width="200"></td>
+            <td>
+                <p>ФИО: Билл Гейтс <span id="name"></span></p>
+                <p>E-mail: <a href="mailto:billgates@microsoft.com" onclick="return confirmEmail()"> billgates@microsoft.com </a> <span id="email"></span></p>
+                <p>Дата рождения: 28.10.1955 <span id="age"></span></p>
+                <p>Город: Медина, Вашингтон <span id="city"></span></p>
+            </td>
+        </tr>
+    </table>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
