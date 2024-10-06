@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Данные пользователей</title>
+    <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
-$END$
+<div class="card">
+    <table>
+        <tr>
+            <td><img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user" width="150"></td>
+            <td><p>Имя: <span id = "name"></span></p>
+                <p>Возраст: <span id = "age"></span></p>
+                <p>Город: <span id = "city"></span></p>
+            </td>
+        </tr>
+    </table>
+</div>
 </body>
 </html>
